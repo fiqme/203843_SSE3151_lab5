@@ -16,7 +16,7 @@ class WorldTime{
 
     try{
       //make the request
-      Response response = await get(Uri.http('worldstimeapi.org', "$url"));
+      Response response = await get(Uri.http('worldtimeapi.org', "$url"));
       Map data = jsonDecode(response.body);
       //print(data);
 
